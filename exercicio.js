@@ -16,12 +16,15 @@ var valorVenda = quantidadeVendida * valorProduto;
 var porcentagem = parseInt(prompt("Digite a porcentagem do desconto:"));
 var porcentagemTotal = porcentagem / 100;
 var resultado = valorVenda * porcentagemTotal;
+var vendaDesconto = valorVenda - resultado;
 
 
 
 console.log("O produto é: " + produto);
 console.log("O valor total é de: " + valorVenda + " reais");
 console.log("O desconto é de: " + resultado + " reais");
+console.log("O valor total com desconto é de: " + vendaDesconto + " reais");
+
 
 
 
